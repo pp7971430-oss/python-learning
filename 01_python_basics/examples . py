@@ -1,0 +1,91 @@
+# Python Basics - Examples
+
+name = input("Enter your name: ")
+city = input("Enter your city: ")
+
+print("My name is:", name)
+print("My city is:", city)
+
+age = int(input("Enter your age: "))
+print("You are", age, "years old")
+
+# Variables - Examples
+
+student_name = "priya"
+student_age = 18
+student_height = 5.1
+
+print("student name is :", student_name)
+print("student age is :",student_age)
+print("student height is:",student_height)
+
+name = "priya"
+age = 18
+course = "btech Computer science"
+print(name)
+print(age)
+print(course)
+
+# ==========================================
+# PYTHON DATA TYPES - EXAMPLES
+# ==========================================
+
+
+# ------------------------------------------
+# Example 1: Student Information
+# ------------------------------------------
+
+name = "Priya"          # str
+age = 18                # int
+height = 5.5            # float
+is_student = True       # bool
+
+print("Name:", name)
+print("Age:", age)
+print("Height:", height)
+print("Is Student:", is_student)
+
+
+# ------------------------------------------
+# Example 2: Product Information
+# ------------------------------------------
+
+product_name = "Laptop"     # str
+quantity = 2                # int
+price = 49999.99            # float
+is_available = True         # bool
+
+print("Product:", product_name)
+print("Quantity:", quantity)
+print("Price:", price)
+print("Available:", is_available)
+
+
+# ------------------------------------------
+# Example 3: Exam Result
+# ------------------------------------------
+
+student_name = "Priya"
+marks = 85
+percentage = 85.5
+passed = True
+
+print("Student:", student_name)
+print("Marks:", marks)
+print("Percentage:", percentage)
+print("Passed:", passed)
+
+
+# ------------------------------------------
+# Example 4: Different Data Types
+# ------------------------------------------
+
+name = "Python"       # str
+number = 100          # int
+decimal = 10.5       # float
+status = True         # bool
+
+print(type(name))
+print(type(number))
+print(type(decimal))
+print(type(status))

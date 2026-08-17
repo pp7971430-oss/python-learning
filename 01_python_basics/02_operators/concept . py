@@ -1,0 +1,81 @@
+# ==========================================
+# PYTHON OPERATORS - CONCEPTS
+# ==========================================
+
+# 1. Arithmetic Operators
+# +, -, *, /, //, %, **
+
+a = 10
+b = 3
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Remainder:", a % b)
+print("Power:", a ** b)
+
+
+# 2. Comparison Operators
+# ==, !=, >, <, >=, <=
+
+x = 10
+y = 20
+
+print("Equal:", x == y)
+print("Not Equal:", x != y)
+print("Greater Than:", x > y)
+print("Less Than:", x < y)
+print("Greater Than or Equal:", x >= y)
+print("Less Than or Equal:", x <= y)
+
+
+# 3. Logical Operators
+# and, or, not
+
+age = 20
+has_id = True
+
+print("AND:", age >= 18 and has_id)
+print("OR:", age >= 18 or has_id)
+print("NOT:", not has_id)
+
+
+# 4. Assignment Operators
+# =, +=, -=, *=, /=, //=, %=
+
+score = 10
+
+score += 5
+print("After +=:", score)
+
+score -= 2
+print("After -=:", score)
+
+score *= 2
+print("After *=:", score)
+
+score /= 2
+print("After /=:", score)
+
+
+# 5. Membership Operators
+# in, not in
+
+language = "Python"
+
+print("P in Python:", "P" in language)
+print("z not in Python:", "z" not in language)
+
+
+# 6. Identity Operators
+# is, is not
+
+list1 = [1, 2, 3]
+list2 = list1
+list3 = [1, 2, 3]
+
+print("list1 is list2:", list1 is list2)
+print("list1 is list3:", list1 is list3)
+print("list1 is not list3:", list1 is not list3)

@@ -1,0 +1,39 @@
+# Assignment 1 - Pass or Fail
+
+marks = 65
+
+if marks >= 40:
+    print("Passed")
+else:
+    print("Failed")
+
+# Assignment 2 - Even or Odd
+
+number = 24
+
+if number % 2 == 0:
+    print("Even number.")
+else:
+    print("Odd number.")
+
+# Assignment 3 - Voting Eligibility
+
+age = 20
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+# Assignment 4 - Positive, Negative or Zero
+
+number = -5
+
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+

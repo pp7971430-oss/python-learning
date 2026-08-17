@@ -1,0 +1,99 @@
+# ==========================================
+# PYTHON CONDITIONS - PRACTICE
+# ==========================================
+
+
+# Q1. Check whether a person is eligible to vote.
+
+age = 19
+
+print("Q1 - Voting Eligibility")
+
+if age >= 18:
+    print("Eligible to vote.")
+else:
+    print("Not eligible to vote.")
+
+
+# Q2. Check whether a number is even or odd.
+
+number = 24
+
+print("\nQ2 - Even or Odd")
+
+if number % 2 == 0:
+    print("Even number.")
+else:
+    print("Odd number.")
+
+
+# Q3. Check whether a student passed or failed.
+
+marks = 65
+
+print("\nQ3 - Student Result")
+
+if marks >= 40:
+    print("Passed.")
+else:
+    print("Failed.")
+
+
+# Q4. Find the greater number.
+
+a = 50
+b = 30
+
+print("\nQ4 - Greater Number")
+
+if a > b:
+    print("A is greater.")
+else:
+    print("B is greater.")
+
+
+# Q5. Check positive, negative or zero.
+
+number = -10
+
+print("\nQ5 - Number Type")
+
+if number > 0:
+    print("Positive.")
+elif number < 0:
+    print("Negative.")
+else:
+    print("Zero.")
+
+
+# Q6. Check whether a person can enter.
+
+age = 21
+has_ticket = True
+
+print("\nQ6 - Entry Check")
+
+if age >= 18 and has_ticket:
+    print("Entry allowed.")
+else:
+    print("Entry not allowed.")
+
+
+# Q7. Grade calculator.
+
+marks = 78
+
+print("\nQ7 - Grade")
+
+if marks >= 90:
+    print("A+")
+elif marks >= 80:
+    print("A")
+elif marks >= 70:
+    print("B")
+elif marks >= 60:
+    print("C")
+elif marks >= 40:
+    print("D")
+else:
+    print("F")

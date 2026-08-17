@@ -1,0 +1,50 @@
+# Python Basics - Practice
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+
+print("Welcome", name)
+print("You are", age, "years old")
+print("You live in", city)
+
+print("Lets do some calculation!")
+num1 = int(input("Enter first number:"))
+num2 = int(input("enter second number:"))
+print(num1 + num2)
+
+print("python" , "is" , "awesome" ,
+sep = "\n")
+
+# Variables - Practice
+student_name = "priya"
+student_age = 18
+student_height = 5.1
+
+print("student name is :", student_name)
+print("student age is :",student_age)
+print("student height is:",student_height)
+
+# ==========================================
+# PRACTICE 2 - SHOPPING BILL
+# ==========================================
+
+product_name = input("Enter product name: ")
+quantity = int(input("Enter quantity: "))
+price = float(input("Enter price per item: "))
+
+total = quantity * price
+
+print("\n==========================================")
+print("             SHOPPING BILL")
+print("==========================================")
+
+print("Product:", product_name)
+print("Quantity:", quantity)
+print("Price per Item: ₹", price)
+
+print("------------------------------------------")
+
+print("Total Bill: ₹", total)
+
+print("==========================================")

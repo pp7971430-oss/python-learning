@@ -1,0 +1,57 @@
+# Assignment 1 - Basic Calculator
+
+a = 20
+b = 5
+
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+# Assignment 2 - Shopping cart total
+price = 500
+quantity = 3
+
+total = price * quantity
+
+print("Total Bill:", total)
+
+# Assignment 3 - Electricity Bill Calculator
+
+units = 250
+rate = 6
+
+total_bill = units * rate
+
+print("Q1 - Electricity Bill")
+print("Units:", units)
+print("Rate:", rate)
+print("Total Bill:", total_bill)
+
+# Assignment 4 - Student Result Checker
+
+maths = 75
+science = 80
+english = 65
+
+total_marks = maths + science + english
+average_marks = total_marks / 3
+
+print("\nQ2 - Student Result")
+print("Total Marks:", total_marks)
+print("Average Marks:", average_marks)
+print("Passed:", average_marks >= 40)
+
+# Assignment 5 - Salary Calculation
+
+basic_salary = 30000
+bonus_percentage = 10
+
+bonus_amount = basic_salary * bonus_percentage / 100
+final_salary = basic_salary + bonus_amount
+
+print("\nQ4 - Salary Calculation")
+print("Basic Salary:", basic_salary)
+print("Bonus Amount:", bonus_amount)
+print("Final Salary:", final_salary)
+

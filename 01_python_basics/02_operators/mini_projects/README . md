@@ -1,0 +1,73 @@
+#  Electricity Bill Calculator
+
+##  About the Project
+
+Electricity Bill Calculator is a Python-based mini project that calculates an electricity bill based on the number of units consumed.
+
+The project uses slab-based billing and applies different rates according to the electricity units.
+
+##  Features
+
+- Takes customer name as input
+- Takes electricity units as input
+- Validates negative units
+- Calculates bill using different unit slabs
+- Displays a formatted electricity bill
+- Uses conditional logic for billing calculation
+
+##  Billing Slabs
+
+| Units | Rate |
+|------|------|
+| 0 - 100 | ₹5 per unit |
+| 101 - 200 | ₹7 per unit |
+| 201 - 300 | ₹10 per unit |
+| Above 300 | ₹12 per unit |
+
+> Note: These rates are used for this practice project and are not based on any specific electricity board tariff.
+
+##  Concepts Used
+
+- Variables
+- User Input
+- Strings
+- Integers
+- Type Casting
+- Arithmetic Operators
+- Comparison Operators
+- if-elif-else
+- Input Validation
+- f-Strings
+
+##  How to Run
+
+1. Make sure Python is installed.
+2. Open the project in VS Code.
+3. Open the terminal.
+4. Run:
+
+```bash
+python electricity_bill_calculator.py
+
+1. Enter the customer name.
+2. Enter the electricity units consumed.
+3. The program will calculate and display the final bill.
+
+  Example
+Input
+Enter customer name: Priya
+Enter units consumed: 250
+
+Output
+==========================================
+              ELECTRICITY BILL
+==========================================
+Customer Name  : Priya
+Units Consumed : 250
+Total Bill     : ₹1700
+==========================================
+        Thank you for using our service!
+==========================================
+
+ Author
+Priya Pal

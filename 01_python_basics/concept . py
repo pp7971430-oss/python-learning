@@ -1,0 +1,114 @@
+# Python Basics
+# Topics:
+# 1. (print)
+# 2. Variables
+# 3. input()
+# 4. Strings
+# 5. Integers
+# 6. Type conversion
+
+print("Hello, Python!")
+
+name = "Priya"
+age = 18
+
+print(name)
+print(age)
+
+city = input("Enter your city: ")
+print("You live in", city)
+
+number = int(input("Enter a number: "))
+print("Your number is", number)
+
+# -------------------------
+# Variables
+# -------------------------
+
+# A variable stores a value.
+
+name = "Priya"
+age = 18
+
+print(name)
+print(age)
+
+# Variables can store different types of values.
+
+student_name = "Priya"   # String
+age = 18                 # Integer
+height = 5.4             # Float
+
+# A variable's value can be changed.
+
+age = 18w
+print(age)
+
+# ==========================================
+# PYTHON DATA TYPES - CONCEPT
+# ==========================================
+
+# Python has different data types to store different kinds of data.
+
+
+# ------------------------------------------
+# 1. STRING (str)
+# ------------------------------------------
+# String is used to store text.
+# String is written inside quotes.
+
+name = "Priya"
+city = "Pratapgarh"
+
+print(name)
+print(type(name))
+
+
+# ------------------------------------------
+# 2. INTEGER (int)
+# ------------------------------------------
+# Integer is used to store whole numbers.
+# Examples: 10, 25, -5, 100
+
+age = 18
+marks = 85
+
+print(age)
+print(type(age))
+
+
+# ------------------------------------------
+# 3. FLOAT (float)
+# ------------------------------------------
+# Float is used to store decimal numbers.
+# Examples: 5.5, 10.25, 99.99
+
+height = 5.5
+price = 99.99
+
+print(height)
+print(type(height))
+
+
+# ------------------------------------------
+# 4. BOOLEAN (bool)
+# ------------------------------------------
+# Boolean has only two values:
+# True or False
+
+is_student = True
+is_logged_in = False
+
+print(is_student)
+print(type(is_student))
+
+
+# ------------------------------------------
+# 5. TYPE()
+# ------------------------------------------
+# type() is used to check the data type.
+
+print(type(name))
+print(type(age))
+print(type(height))
+print(type(is_student))

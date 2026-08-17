@@ -1,0 +1,83 @@
+# ==========================================
+# PYTHON OPERATORS - REAL-LIFE EXAMPLES
+# ==========================================
+
+
+# Example 1: Shopping Bill
+
+price = 500
+quantity = 3
+
+total = price * quantity
+
+print("Example 1 - Shopping Bill")
+print("Total Bill:", total)
+
+
+# Example 2: Pass or Fail
+
+marks = 75
+
+print("\nExample 2 - Result")
+print("Passed:", marks >= 40)
+
+
+# Example 3: Voting Eligibility
+
+age = 20
+
+print("\nExample 3 - Voting Eligibility")
+print("Eligible:", age >= 18)
+
+
+# Example 4: Login Check
+
+username = "admin"
+password = "1234"
+
+login_success = username == "admin" and password == "1234"
+
+print("\nExample 4 - Login")
+print("Login Successful:", login_success)
+
+
+# Example 5: Even or Odd
+
+number = 24
+
+print("\nExample 5 - Even/Odd")
+print("Even:", number % 2 == 0)
+
+
+# Example 6: Discount Calculation
+
+price = 2000
+discount = 10
+
+discount_amount = price * discount / 100
+final_price = price - discount_amount
+
+print("\nExample 6 - Discount")
+print("Original Price:", price)
+print("Discount Amount:", discount_amount)
+print("Final Price:", final_price)
+
+
+# Example 7: Product Availability
+
+products = ["Laptop", "Phone", "Tablet"]
+
+print("\nExample 7 - Product Search")
+print("Laptop Available:", "Laptop" in products)
+print("Camera Available:", "Camera" in products)
+
+
+# Example 8: Age and Marks Eligibility
+
+age = 19
+marks = 65
+
+eligible = age >= 18 and marks >= 50
+
+print("\nExample 8 - Eligibility")
+print("Eligible:", eligible)

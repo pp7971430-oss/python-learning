@@ -1,0 +1,118 @@
+# ==========================================
+# PYTHON CONDITIONS - REAL-LIFE EXAMPLES
+# ==========================================
+
+
+# Example 1: Voting Eligibility
+
+age = 20
+
+if age >= 18:
+    print("Example 1:")
+    print("You can vote.")
+else:
+    print("You cannot vote.")
+
+
+# Example 2: Student Result
+
+marks = 75
+
+print("\nExample 2:")
+
+if marks >= 40:
+    print("Student Passed")
+else:
+    print("Student Failed")
+
+
+# Example 3: Grade Calculator
+
+marks = 85
+
+print("\nExample 3:")
+
+if marks >= 90:
+    print("Grade: A+")
+elif marks >= 80:
+    print("Grade: A")
+elif marks >= 70:
+    print("Grade: B")
+elif marks >= 60:
+    print("Grade: C")
+elif marks >= 40:
+    print("Grade: D")
+else:
+    print("Grade: F")
+
+
+# Example 4: ATM Withdrawal
+
+balance = 5000
+withdraw = 3000
+
+print("\nExample 4:")
+
+if withdraw <= balance:
+    balance = balance - withdraw
+    print("Withdrawal successful.")
+    print("Remaining Balance:", balance)
+else:
+    print("Insufficient balance.")
+
+
+# Example 5: Login System
+
+username = "admin"
+password = "1234"
+
+print("\nExample 5:")
+
+if username == "admin" and password == "1234":
+    print("Login successful.")
+else:
+    print("Invalid username or password.")
+
+
+# Example 6: Temperature Checker
+
+temperature = 35
+
+print("\nExample 6:")
+
+if temperature >= 40:
+    print("Very Hot")
+elif temperature >= 30:
+    print("Hot")
+elif temperature >= 20:
+    print("Normal")
+else:
+    print("Cold")
+
+
+# Example 7: Shopping Discount
+
+price = 6000
+
+print("\nExample 7:")
+
+if price >= 5000:
+    print("You get a 20% discount.")
+elif price >= 3000:
+    print("You get a 10% discount.")
+else:
+    print("No discount.")
+
+
+# Example 8: Number Checker
+
+number = 10
+
+print("\nExample 8:")
+
+if number > 0:
+    print("Positive number.")
+elif number < 0:
+    print("Negative number.")
+else:
+    print("Zero.")

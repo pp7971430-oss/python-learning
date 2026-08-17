@@ -1,0 +1,73 @@
+# ==========================================
+# PYTHON OPERATORS - PRACTICE
+# ==========================================
+
+
+# Q1. Two numbers ka calculation
+
+a = 25
+b = 5
+
+print("Q1")
+print("Sum:", a + b)
+print("Difference:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+
+
+# Q2. Check Even or Odd
+
+number = 17
+
+print("\nQ2")
+print("Even:", number % 2 == 0)
+print("Odd:", number % 2 != 0)
+
+
+# Q3. Check Pass or Fail
+
+marks = 65
+
+print("\nQ3")
+print("Passed:", marks >= 40)
+print("Failed:", marks < 40)
+
+
+# Q4. Voting Eligibility
+
+age = 21
+
+print("\nQ4")
+print("Eligible for Voting:", age >= 18)
+
+
+# Q5. Number 10 se bada AND 50 se chhota
+
+number = 30
+
+result = number > 10 and number < 50
+
+print("\nQ5")
+print("Condition:", result)
+
+
+# Q6. Shopping Bill
+
+price = 250
+quantity = 4
+
+total = price * quantity
+
+print("\nQ6")
+print("Price:", price)
+print("Quantity:", quantity)
+print("Total Bill:", total)
+
+
+# Q7. Check Character in String
+
+language = "Python"
+
+print("\nQ7")
+print("P present:", "P" in language)
+print("z present:", "z" in language)

@@ -1,0 +1,19 @@
+# Assignment 1 - Personal Introduction
+
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
+
+print("Welcome", name)
+print("You are", age, "years old")
+print("You live in", city)
+
+# Assignment 2 - Simple Calculator
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)

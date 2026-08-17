@@ -1,0 +1,84 @@
+# ==========================================
+# PYTHON CONDITIONS - CONCEPTS
+# ==========================================
+
+# 1. if statement
+# Condition True hone par code execute hota hai.
+
+age = 20
+
+if age >= 18:
+    print("You are eligible to vote.")
+
+
+# 2. if-else statement
+# Condition True -> if
+# Condition False -> else
+
+marks = 35
+
+if marks >= 40:
+    print("You passed.")
+else:
+    print("You failed.")
+
+
+# 3. if-elif-else
+# Multiple conditions check karne ke liye.
+
+marks = 85
+
+if marks >= 90:
+    print("Grade A+")
+elif marks >= 80:
+    print("Grade A")
+elif marks >= 70:
+    print("Grade B")
+elif marks >= 60:
+    print("Grade C")
+else:
+    print("Grade D")
+
+
+# 4. Multiple Conditions using and
+
+age = 20
+marks = 70
+
+if age >= 18 and marks >= 50:
+    print("You are eligible.")
+
+
+# 5. Multiple Conditions using or
+
+day = "Sunday"
+
+if day == "Saturday" or day == "Sunday":
+    print("It's the weekend.")
+
+
+# 6. Nested if
+# if ke andar another if.
+
+age = 20
+has_id = True
+
+if age >= 18:
+    if has_id:
+        print("Entry allowed.")
+    else:
+        print("ID is required.")
+else:
+    print("Entry not allowed.")
+
+
+# 7. Checking positive, negative or zero
+
+number = -5
+
+if number > 0:
+    print("Positive")
+elif number < 0:
+    print("Negative")
+else:
+    print("Zero")
